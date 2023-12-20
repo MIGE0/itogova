@@ -1,0 +1,509 @@
+body, html{
+    width: 100%;
+    margin: 0%;
+    overflow-x: hidden;
+    font-family: 'Merriweather', serif;
+    font-family: 'Nunito', sans-serif;
+    --sb-track-color: #251b16;
+    --sb-thumb-color: #998675;
+    --sb-size: 10px;
+  
+    scrollbar-color: var(--sb-thumb-color) 
+                     var(--sb-track-color);
+}
+html{
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 0px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 10px;
+    border: 2px solid #251b16;
+  }
+div{
+    display: inline-block;
+}
+main{
+    width: 100%;
+    height: 75%;
+    padding-top: 15vh;
+}
+.anchor{
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    z-index: 1;
+    left: 95vw;
+}
+.anchor1{
+    top: 85vh; 
+}
+.anchor2{
+    top: 92vh;
+}
+.back-i{
+    width: calc(100vw - 10px);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(./img/gory_les_tuman_159839_1920x1080.jpg);
+}
+.back-c{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+.header{
+    height: 10%;
+}
+.header-waxom{
+    font-size: 3vw;
+    margin: 2vh 7vw 0% 10vw;
+}
+.color-w{
+    color: white;
+}
+.header-url{
+    text-decoration: none;
+    font-size: clamp(15px, 1vmax, 22px);
+    margin-left: 2vw;
+}
+.icone{
+    height: 1.5vw;
+    width: 1.5vw;
+}
+.mar-l-3vw{
+    margin-left: 3vw;
+}
+.mar-l-1vw{
+    margin-left: 1vw;
+}
+.margin-l-r-2vw{
+    margin: 0% 2vw 0% 2vw;
+}
+.margin-b-3vh{
+    margin-bottom: 3vh;
+}
+.w-100{
+    width: 100%;
+}
+.h-100{
+    height: 100%;
+}
+.text-color-1{
+    color: rgb(85, 85, 85);
+}
+.text-color-2{
+    color: rgb(133 133 133);
+}
+.main{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.q1{
+    width: 50vw;
+    height: 60%;
+    text-align: center;
+    font-size: 30px;
+}
+.q2{
+    font-size: 45px;
+}
+.getstarted{
+    margin-top: 90px;
+}
+.buttom{
+    display: inline-block;
+    vertical-align: sub;
+    text-align: center;
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    background-color: rgb(153, 134, 117);
+    border-radius: 3px;
+    box-shadow: 0px 3px rgb(115, 99, 88);
+}
+.arrow{
+    color: rgba(160, 159, 157, 0.8);
+    font-size: 100px;
+    width: 7vw;
+    height: 60%;
+    text-align: center;
+}
+.boxcircle{
+    height: 24vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.circle{
+    background-color: rgba(160, 159, 157, 0.8);
+    width: 15px;
+    height: 15px;
+    clip-path: circle(50%);
+    margin-left: 3px;
+}
+.w1{
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    gap: 1vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: calc(10vw - 5px);
+    padding-right: calc(10vw - 5px);
+}
+.w2{
+    width: 20%;
+    height: 80%;
+    text-align: center;
+    font-size: clamp(12px, 0.75vw, 15px);
+}
+.w3{
+    font-size: 3vw;
+}
+.w4{
+    font-size: 130%;
+}
+.w44{
+    width: 15vw;
+}
+.line{
+    fill: rgb(223, 220, 217);
+    width: 100px;
+    height: 3px;
+}
+.r1{
+    width: 80vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: calc(10vw - 5px);
+    padding-right: calc(10vw - 5px);
+}
+.back-gradient{
+    background: linear-gradient(to right, rgb(33,28,25), rgb(77,51,38));
+}
+.r3{
+    font-size: 2vw;
+}
+.r33{
+    color: rgb(183, 163, 139);
+}
+.r4{
+    font-size: 1vw;
+    color: rgb(93, 84, 79);
+}
+.t1{
+    width: 79vw;
+    text-align: center;
+    padding-left: calc(10.5vw - 5px);
+    padding-right: calc(10.5vw - 5px);
+}
+.t2{
+    height: 15vh;
+    padding: 5vh 0px 0px 0px;
+}
+.t22{
+    font-size: 1.5vw;
+}
+.t3{
+    height: 40%;
+}
+.t40{
+    height: 80vh;
+}
+.t41{
+    height: 10vh;
+    margin-top: 5vh;
+}
+.t4{
+    height: 65vh;
+}
+.t33{
+    width: 100px;
+    height: 30px;
+    border: solid 1px rgb(213 213 213);
+    border-radius: 5px;
+    margin-right: 1vw;
+    margin-top: 3vh;
+    line-height: 30px;
+}
+.t44{
+    width: 25vw;
+    height: 30vh;
+    vertical-align: top;
+    background-size: 25vw 30vh;
+    background-repeat: no-repeat;
+}
+.t441{
+    width: 25vw;
+    height: 30vh;
+}
+.t442{
+    width: 200px;
+    height: 5vh;
+    margin-top: 7vh;
+}
+.t443{
+    margin-right: 40px;
+}
+.t444{
+    display: none;
+}
+.t45{
+    width: 95%;
+    height: 8vh;
+    vertical-align: bottom;
+    padding-left: 5%;
+    text-align: left;
+    margin-top: 10vh;
+    background-color: rgb(245, 245, 245);
+    clip-path: polygon(7.5% 0%, 10% 7%, 100% 7%, 100% 100%, 0 100%, 0 7%, 5% 7%);
+}
+.t46{
+    font-weight: normal;
+    color: rgb(192, 168, 142);
+    font-size: clamp(12px, 1vw, 25px);
+}
+.t47{
+    font-weight: normal;
+    color: rgb(177, 174, 172);
+    font-size: clamp(10px, 0.75vw, 15px);
+}
+.back-phone1{
+    background-image: url(./img/samsung-galaxy-smartphones-mockup-psd-02.jpg);
+}
+.back-phone2{
+    background-image: url(./img/caption.jpg);
+}
+.back-phone3{
+    background-image: url(./img/2020-08-29-bt5wq8.4090ca16.webp);
+}
+.back-phone4{
+    background-image: url(./img/gallery4-430w.webp);
+}
+.back-phone5{
+    background-image: url(./img/Photoreal.jpg);
+}
+.back-phone6{
+    background-image: url(./img/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYxNjU2MTg3LXdpa2ltZWRpYS1pbWFnZS1rb3dsemZnai5qcGc.webp);
+}
+.y1{
+    height: 60vh;
+    background-image: url(./img/rZ10Mxd38vqgTJkfpsqsAuhVy5Y4HsJ7C8pfM9Ei.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.y2{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.y3{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.y32{
+    width: 100px;
+    height: 100px;
+    clip-path: circle(50%);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.y41{
+    height: 40px;
+    text-align: center;
+}
+.y44{
+    color: rgb(196 176 152);
+    font-size: 20px;
+}
+.y43{
+    font-size: 20px;
+}
+.y42{
+    font-size: 35px;
+}
+.a1{
+    width: 100%;
+    height: 60vh;
+    background-image: url(./img/uuu.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.a2{
+    width: 30%;
+    margin: 10% 0% 0% 50%;
+}
+.a21{
+    font-size: 30px;
+}
+.a23{
+    padding-left: 20px;
+    margin-top: 25px;
+}
+.a24{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.a25{
+    margin-top: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.s1{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.s2{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    vertical-align: bottom;
+}
+.s3{
+    width: 100%;
+    font-size: 50px;
+    color: white;
+    font-weight: lighter;
+}
+.s4{
+    color: rgb(181 162 138);
+    margin-bottom: 10px;
+}
+.s21{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.d1{
+    height: 65vh;
+}
+.d2{
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    margin: 100px 0px 20px 0px;
+    display: inline-block;
+}
+.d3{
+    margin-top: 50px;
+}
+.d4{
+    width: calc(25vw - 2px);
+    height: 35vh;
+    vertical-align: top;
+    text-align: left;
+    border: 1px solid rgb(201 201 201);
+}
+.d41{
+    width: 100%;
+    height: 60%;
+}
+.d411{
+    width: 100%;
+    height: 100%;
+}
+.back-i-d41-1{
+    background-image: url(./img/istockphoto-691547654-170667a.jpg);
+    background-size: 100% 100%;
+}
+.back-i-d41-2{
+    background-image: url(./img/8f762ded602921eff8540ff1b6104cda.jpg);
+    background-size: 100%;
+}
+.back-i-d41-3{
+    background-image: url(./img/a-cruise-ship-in-the-ocean-at-sunset_887562-2666.jpg);
+    background-size: 100%;
+}
+.d42{
+    width: 60px;
+    height: 70px;
+    border-radius: 5px;
+    margin: 30px 0px 0px 30px;
+    background: rgb(37,37,37);
+    background: linear-gradient(0deg, rgba(37,37,37,1) 0%, rgba(37,37,37,1) 45%, rgba(55,55,55,1) 45%, rgba(55,55,55,1) 100%);
+
+}
+.d421{
+    width: 60px;
+    height: 33px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+.d422{
+    width: 60px;
+    height: 27px;
+    padding-top: 5px;
+    text-align: center;
+}
+.d43{
+    width: 95%;
+    height: 35%;
+    padding: 5% 0% 0% 5%;
+}
+.d44{
+    font-size: 24px;
+}
+.d45{
+    margin-top: 1vh;
+}
+.d46{
+    color: rgb(198 177 152);
+}
+.d461{
+    vertical-align: middle;
+}
+.f1{
+    width: 100%;
+    height: 40vh;
+    background-image: url(./img/1682616397_turizm-pibig-info-p-samie-molodie-gori-v-mire-turizm-pinterest-18.jpg);
+    background-size: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+.f2{
+    width: 100%;
+    height: 98%;
+}
+.g1{
+    width: 69vw;
+    height: 10vh;
+    background-color: rgb(17 17 17);
+    vertical-align: top;
+    padding-left: calc(15.5vw - 5px);
+    padding-right: calc(15.5vw - 5px);
+    display: flex;
+    justify-content: space-between;
+}
+.g2{
+    margin-top: 40px;
+}
+.g3{
+    color: rgb(69 69 69);
+}

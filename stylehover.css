@@ -1,0 +1,66 @@
+.w2:hover .w21{
+    color: rgb(199, 177, 153);
+    fill: rgb(199, 177, 153);
+}
+.y32:hover {
+    background-color:rgba(42, 42, 42, 0.4);
+}
+.y32:hover .y3{
+    fill: rgb(175, 156, 140);
+}
+.t33:hover{
+    background-color: rgb(153, 134, 117);
+    border: solid 1px rgb(153, 134, 117);
+    color: white;
+}
+.t44:hover .t441{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.header-url-hover:hover{
+    color: rgb(195, 175, 149);
+    fill: rgb(195, 175, 149);
+}
+.arrow-up-down:hover{
+    fill: rgb(211 194 173);
+}
+.buttom:hover{
+    background-color: rgb(175, 156, 140);
+    box-shadow: 0px 3px rgb(138, 119, 106);
+}
+.arrow:hover{
+    color: rgba(210, 191, 174, 0.8);
+}
+.t44:hover .t444{
+    display: inline-block;
+}
+.t444:hover{
+    fill: rgb(198, 178, 152);
+}
+.t44:hover .t45{
+    background-color: rgb(55 47 45);
+}
+.t44:hover .t46{
+    color: white;
+}
+.t44:hover .t47{
+    color: rgb(192, 168, 142);
+}
+.d4:hover .d42{
+    background: rgb(166,140,115);
+    background: linear-gradient(0deg, rgba(166,140,115,1) 0%, rgba(166,140,115,1) 40%, rgba(199,177,154,1) 40%, rgba(199,177,154,1) 100%);
+}
+.d4:hover .d411{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.d4:hover .d43{
+    background-color: rgb(55 47 45);
+}
+.d4:hover .d44{
+    color: rgb(198 177 152);
+}
+.d4:hover .d47{
+    color: white;
+}
+.g3:hover{
+    color: rgb(171 152 131);
+}
