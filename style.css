@@ -28,6 +28,9 @@ body::-webkit-scrollbar {
     border-radius: 10px;
     border: 2px solid #251b16;
   }
+*{
+    cursor: url(./img/int.png), pointer;
+}  
 div{
     display: inline-block;
 }
